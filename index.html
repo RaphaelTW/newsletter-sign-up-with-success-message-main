@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" dir="ltr"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <meta name="description" content="Raphael Laurentino - Componente-de-Código-QR"/>
+    <title>Formulário de Inscrição na Newsletter</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon-32x32.png">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-center mb-4">Stay Updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly <br>
+                    updates on:</p>
+                <ul>
+                    <li>
+                        <img src="src/img/icon-list.svg" alt="Icon List"> Product discovery and building what matters
+                    </li>
+                    <li>
+                        <img src="src/img/icon-list.svg" alt="Icon List"> Measuring to ensure updates are a success
+                    </li>
+                    <li>
+                        <img src="src/img/icon-list.svg" alt="Icon List"> And much more!
+                    </li>
+                </ul>
+                <form id="newsletterForm" action="#" method="post">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="email@company.com" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Subscribe to monthly newsletter</button>
+                </form>
+                <div class="alert alert-success mt-3" role="alert" id="successMessage" style="display:none;"></div>
+            </div>
+            <div class="col-md-6">
+                <img src="src/img/illustration-sign-up-desktop.svg" alt="Illustration Desktop" class="img-fluid d-none d-md-block">
+                <img src="src/img/illustration-sign-up-mobile.svg" alt="Illustration Mobile" class="img-fluid d-md-none">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
